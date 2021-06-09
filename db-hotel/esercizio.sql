@@ -16,6 +16,10 @@ FROM `ospiti`
 WHERE `document_type`="CI";
 
 --esercizio-2
+SELECT * 
+FROM `ospiti` 
+WHERE YEAR(date_of_birth) > 1988;
+
 --esercizio-3
 --esercizio-4
 --esercizio-5
