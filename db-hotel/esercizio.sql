@@ -29,7 +29,13 @@ WHERE (YEAR(CURRENT_DATE) - YEAR(date_of_birth)) > 20;
 SELECT * 
 FROM `ospiti` 
 WHERE `name` LIKE 'D%';
+
+
 --esercizio-5
+SELECT SUM(price) 
+FROM `pagamenti`
+WHERE status = 'accepted';
+
 --esercizio-6
 --esercizio-7
 --esercizio-8
