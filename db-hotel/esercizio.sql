@@ -26,6 +26,9 @@ FROM `ospiti`
 WHERE (YEAR(CURRENT_DATE) - YEAR(date_of_birth)) > 20;
 
 --esercizio-4
+SELECT * 
+FROM `ospiti` 
+WHERE `name` LIKE 'D%';
 --esercizio-5
 --esercizio-6
 --esercizio-7
