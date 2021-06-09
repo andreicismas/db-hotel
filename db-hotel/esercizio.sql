@@ -21,6 +21,10 @@ FROM `ospiti`
 WHERE YEAR(date_of_birth) > 1988;
 
 --esercizio-3
+SELECT * 
+FROM `ospiti` 
+WHERE (YEAR(CURRENT_DATE) - YEAR(date_of_birth)) > 20;
+
 --esercizio-4
 --esercizio-5
 --esercizio-6
