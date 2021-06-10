@@ -37,7 +37,16 @@ FROM `pagamenti`
 WHERE status = 'accepted';
 
 --esercizio-6
+SELECT MAX(price) 
+FROM `pagamenti`;
+
+
 --esercizio-7
+SELECT * 
+FROM `ospiti`
+WHERE `document_type` = "Driver License"
+  AND YEAR(`date_of_birth`) = 1975;
+  
 --esercizio-8
 --esercizio-9
 
