@@ -50,7 +50,11 @@ WHERE `document_type` = "Driver License"
 --esercizio-8
 SELECT *
 FROM `paganti`
-WHERE `ospite_id` <> "NULL";
+WHERE `ospite_id` IS NOT NULL;
+
+-- SELECT *
+-- FROM `paganti`
+-- WHERE `ospite_id`> 0;
 
 --esercizio-9
 SELECT SUM(`beds`) 
