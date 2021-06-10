@@ -46,7 +46,13 @@ SELECT *
 FROM `ospiti`
 WHERE `document_type` = "Driver License"
   AND YEAR(`date_of_birth`) = 1975;
-  
+
 --esercizio-8
+SELECT *
+FROM `paganti`
+WHERE `ospite_id` <> "NULL";
+
 --esercizio-9
+SELECT SUM(`beds`) 
+FROM `stanze`;
 
